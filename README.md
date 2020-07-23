@@ -1,5 +1,5 @@
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/20.JPG" alt="drawing" width="1000" height="200"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/main.png" alt="drawing" width="1000" height="200"/>
 
 
 ### Photometric Frequency Analysis
@@ -13,7 +13,7 @@ We're going to use decision trees to determine the redshifts of galaxies from th
 
 We will be using flux magnitudes from the [Sloan Digital Sky Survey](http://www.sdss.org/) (SDSS) catalogue to create color indices. Flux magnitudes are the total flux (or light) received in five frequency bands (*u*, *g*, *r*, *i* and *z*).
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/plot_sdss_filters_1.png" alt="plot_sdss_filters_1" width="800" height="400"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_filters.png" alt="plot_sdss_filters_1" width="800" height="400"/>
 
 The *astronomical color* (or *color index*) is the difference between the magnitudes of two filters, i.e. *u - g* or *i - z*. This index is one way to characterize the colors of galaxies. For example, if the u-g index is high then the object is brighter in ultra violet frequencies than it is in visible green frequencies.
 
@@ -59,33 +59,33 @@ Also, its a good practice to look into the statistical measures about our sample
 
 Also, we can visualize the distribution of data in different frequency bands. 
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/2.png" alt="plot_sdss_filters_1" width="420" height="300"/>  <img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/3.png" alt="plot_sdss_filters_1" width="420" height="300"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_u_band.png" alt="plot_sdss_filters_1" width="420" height="300"/>  <img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_g_band.png" width="420" height="300"/>
 The above images show the frequency distribution of **u** and **g** bands respectively.
 
 But we could also plot the distribution of all the frequency bands together.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/4.png" alt="plot_sdss_filters_1" width="420" height="300"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_together.png" alt="plot_sdss_filters_1" width="420" height="300"/>
 
 Similarly, we can plot all the different frequency bands against the redshift.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/5.png" alt="plot_sdss_filters_1" width="420" height="300"/>		
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_together_redshift.png" alt="plot_sdss_filters_1" width="420" height="300"/>		
 
 Now to obtain different colors, we'll subtract the frequency bands, i.e. u-g, g-r etc.
 After plotting this, this looks like this.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/7.png" alt="plot_sdss_filters_1" width="420" height="300"/>  <img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/8.png" alt="plot_sdss_filters_1" width="420" height="300"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_u-g.png" alt="plot_sdss_filters_1" width="420" height="300"/>  <img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_g-r.png" alt="plot_sdss_filters_1" width="420" height="300"/>
 
 We can again plot them together to obtain something like this.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/11.png" alt="plot_sdss_filters_1" width="420" height="300"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_difference_together.png" alt="plot_sdss_filters_1" width="420" height="300"/>
 
 We can also plot a correlation of different features. This map gives us much needed understanding about what effect one parameter has on other parameter.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/12.png" alt="plot_sdss_filters_1" width="470" height="350"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/corellation.png" alt="plot_sdss_filters_1" width="470" height="350"/>
 
 Also, we can plot a scatter plot of all the features combines.
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/13.png" alt="plot_sdss_filters_1" width="800" height="500"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/scatter_together.png" alt="plot_sdss_filters_1" width="800" height="500"/>
 
 Enough with data visualization **!!** Lets write some code.
 
