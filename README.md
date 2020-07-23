@@ -147,7 +147,7 @@ plt.ylim(-0.5, 1)
 plt.show()
 ```
 
-<img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/14.png" alt="plot_sdss_filters_1" width="420" height="300"/> <img src="https://github.com/mehtaanuj95/mehtaanuj95.github.io/blob/master/_posts/images/15.png" alt="plot_sdss_filters_1" width="420" height="300"/>
+<img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/final_result1.png" alt="plot_sdss_filters_1" width="420" height="300"/> <img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/final_result2.png" alt="plot_sdss_filters_1" width="420" height="300"/>
 
 
 On the conclusion, Obtaining an accurate estimate of the redshift to each of these galaxies is a pivotal part for knowing the galaxy's history, composition and fate. Since there are so many extremely faint galaxies, there is no possibility of obtaining a spectrum for each one. Thus sophisticated photometric redshift codes will be required to advance our understanding of the Universe, including more precisely understanding the nature of the dark energy that is currently accelerating the cosmic expansion.
