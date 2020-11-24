@@ -60,6 +60,7 @@ Also, its a good practice to look into the statistical measures about our sample
 Also, we can visualize the distribution of data in different frequency bands. 
 
 <img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_u_band.png" alt="plot_sdss_filters_1" width="420" height="300"/>  <img src="https://github.com/mehtaanuj95/photometric-frequency-analysis/blob/master/images/sdss_g_band.png" width="420" height="300"/>
+
 The above images show the frequency distribution of **u** and **g** bands respectively.
 
 But we could also plot the distribution of all the frequency bands together.
@@ -151,3 +152,4 @@ plt.show()
 
 
 On the conclusion, Obtaining an accurate estimate of the redshift to each of these galaxies is a pivotal part for knowing the galaxy's history, composition and fate. Since there are so many extremely faint galaxies, there is no possibility of obtaining a spectrum for each one. Thus sophisticated photometric redshift codes will be required to advance our understanding of the Universe, including more precisely understanding the nature of the dark energy that is currently accelerating the cosmic expansion.
+
